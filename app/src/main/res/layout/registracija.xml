@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Registracija"
+        android:textColor="@color/zaluma"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="450dp"
+        android:layout_height="540dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextText5"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:text="Vardas"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextText51"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Tomas"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tamsiPilka" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextText6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:text="Pavardė"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextText61"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="text"
+                android:text="Plauska"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tamsiPilka" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextText7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:text="El. paštas"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress3"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:text="email@example.com"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tamsiPilka" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextText71"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:text="Tel. nr.:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword7"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="text"
+                android:text="+370866886668"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tamsiPilka" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextText8"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:text="Slaptažodis"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword81"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="Password"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tamsiPilka" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextText9"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:fontFamily="sans-serif-black"
+                android:inputType="text"
+                android:text="Pakartoti slaptažodį"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword91"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:text="Password"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/tamsiPilka" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="bottom"
+            android:layout_marginBottom="50dp">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="309dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#4CAF50"
+            android:text="Registruotis"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/tamsiPilka"
+        android:text="Grįžti"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+      />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
