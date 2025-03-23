@@ -83,7 +83,7 @@
                 tools:visibility="visible" />
 
             <EditText
-                android:id="@+id/editTextTextEmailAddress3"
+                android:id="@+id/email"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -120,7 +120,7 @@
                 android:textSize="20sp" />
 
             <EditText
-                android:id="@+id/editTextTextPassword5"
+                android:id="@+id/password"
                 android:layout_width="0dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
@@ -159,7 +159,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/prisijungimas"
                 style="@style/Widget.Material3.Button"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_vaikas1"
+        android:icon="@drawable/ic_vaikas2"
+        android:title="vaikas1" />
+    <item
+        android:id="@+id/nav_vaikas2"
+        android:icon="@drawable/ic_pridetivaika"
+        android:title="vaikas2" />
+    <item
+        android:id="@+id/nav_pridetivaika"
+        android:icon="@drawable/ic_vaikas1"
+        android:title="pridetiVaika
+" />
+</menu>
